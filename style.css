@@ -30,6 +30,13 @@ body {
   align-items: center;
   gap: 10px;
 }
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #38bdf8;
+}
 
 .nav {
   display: flex;
@@ -198,7 +205,13 @@ body.light #contato a {
     width: 100%;
     justify-content: center;
   }
-
+  .avatar {
+    width: 72px;
+    heigth: 72px;
+  }
+  .subtitle {
+    text-align: center;
+  }
   .nav {
     width: 100%;
     justify-content: center;
