@@ -43,6 +43,29 @@ body {
   align-items: center;
   gap: 16px;
 }
+.nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 0.9rem;
+  position: relative;
+}
+
+/* Linha animada ao passar o mouse */
+
+.nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, #38bdf8, #22c55e);
+  transition: width 0.2s ease;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
 
 
 /* MAIN */
@@ -207,7 +230,7 @@ body.light #contato a {
   }
   .avatar {
     width: 72px;
-    heigth: 72px;
+    height: 72px;
   }
   .subtitle {
     text-align: center;
