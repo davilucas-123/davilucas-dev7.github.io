@@ -153,29 +153,31 @@ body {
 }
 /* Tema claro */
 
+/* Tema claro */
+
 body.light {
-  background: #f3f4f6;
+  background: #e5e7eb;
   color: #111827;
 }
 
 body.light .header {
-  background: rgba(243, 244, 246, 0.96);
-  border-bottom-color: rgba(156, 163, 175, 0.6);
+  background: #ffffff;
+  border-bottom-color: rgba(148, 163, 184, 0.8);
 }
 
 body.light .card {
   background: #ffffff;
-  border-color: rgba(59, 130, 246, 0.35);
-  box-shadow: 0 16px 40px rgba(148, 163, 184, 0.45);
+  border-color: rgba(148, 163, 184, 0.9);
+  box-shadow: 0 14px 35px rgba(148, 163, 184, 0.6);
 }
 
 body.light .card h2 {
-  color: #1f2937;
+  color: #0f172a;
   -webkit-background-clip: border-box;
 }
 
 body.light .card h2::after {
-  background: linear-gradient(to right, #3b82f6, #22c55e);
+  background: linear-gradient(to right, #0ea5e9, #22c55e);
 }
 
 body.light .subtitle {
@@ -184,6 +186,12 @@ body.light .subtitle {
 
 body.light .nav a {
   color: #111827;
+}
+
+body.light .tags li {
+  background: #0f172a;
+  color: #f9fafb;
+  border-color: rgba(15, 23, 42, 0.7);
 }
 
 body.light #contato a {
