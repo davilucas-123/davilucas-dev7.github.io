@@ -12,7 +12,6 @@ body {
 }
 
 /* HEADER */
-
 .header {
   position: sticky;
   top: 0;
@@ -32,6 +31,7 @@ body {
   gap: 10px;
 }
 
+
 .avatar {
   width: 64px;
   height: 64px;
@@ -47,10 +47,9 @@ body {
 
 .nav {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  align-items: center;
+  gap: 12px;
 }
-
 .nav a {
   color: #e5e7eb;
   text-decoration: none;
@@ -82,7 +81,6 @@ body {
   cursor: pointer;
   font-size: 0.9rem;
 }
-
 
 /* MAIN */
 
