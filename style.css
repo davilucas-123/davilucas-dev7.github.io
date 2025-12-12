@@ -67,6 +67,32 @@ body {
   width: 100%;
 }
 
+.campo {
+display: flex;
+flex-direction: column;
+gap: 4px;
+}
+
+.campo label {
+font-size: 0.85rem;
+color: #cbd5f5;
+}
+
+.campo input,
+.campo textarea {
+background: #020617;
+border: 1px solid rgba(148, 163, 184, 0.7);
+border-radius: 8px;
+padding: 8px 10px;
+color: #ffffff;
+font-size: 0.9rem;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+outline: none;
+border-color: #38bdf8;
+}
 
 /* MAIN */
 
