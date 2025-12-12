@@ -5,28 +5,44 @@
   <link rel="icon" type="image/png" href="favicon.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sobre - Davi Lucas</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- SEU HEADER ATUAL AQUI (copie do index.html) -->
-  <header class="header">...</header>
+  <header class="header">
+    <div class="header-left">
+      <img src="foto-perfil.jpg" alt="Foto de Davi Lucas" class="avatar">
+      <div>
+        <h1>Davi Lucas</h1>
+        <p class="subtitle">Estudante de Técnico em Informática • Desenvolvedor em formação</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="home.html">Home</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="conhecimentos.html">Conhecimentos</a>
+      <a href="habilidades.html">Habilidades</a>
+      <a href="escola.html">Escola</a>
+      <a href="certificados.html">Certificados</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
 
-  <main>
-    <section class="card" style="max-width: 800px; margin: 2rem auto;">
-      <h1>Sobre mim</h1>
-      <img src="foto.jpg" alt="Davi Lucas" class="avatar" style="float: left; margin-right: 20px;">
-      <p>Estudante de <strong>Informática na Fundação Educacional de Contagem (Funec Riacho)</strong>.</p>
-      <h3>Certificados</h3>
-      <ul>
-        <li>Lógica de Programação (40h) - IFRS via Mundi</li>
-        <li>Inteligência Artificial (20h) - IFRS via Mundi</li>
-        <li>Ciência da Computação/TI (40h) - IFRS via Mundi</li>
-      </ul>
+  <main class="container">
+    <section class="card">
+      <h2>Sobre mim</h2>
+      <p>
+        Sou Davi Lucas tenho 16 anos, estudante do 1º ano do ensino médio e apaixonado por tecnologia e desenvolvimento web.
+        Estou construindo minha base em HTML, CSS e JavaScript e criei este portfólio para registrar minha evolução,
+        organizar meus estudos e mostrar os projetos que vou desenvolvendo.
+      </p>
     </section>
   </main>
 
-  <!-- SEU FOOTER E BTN-TOPO -->
+  <button id="btn-topo" aria-label="Voltar ao topo">↑</button>
+  <footer class="footer">
+    <p>© 2025 - Portfólio de Davi Lucas</p>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
